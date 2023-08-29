@@ -30,6 +30,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h1 {
@@ -55,6 +58,16 @@ li a:hover {
 
 }
 
+/* nav toggle */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
 /* navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -64,6 +77,11 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #ffffff;
     display: none;
+    top: 100%;
+}
+
+.nav-toggle-label {
+    font-size: 3rem;
 }
 
 /* Main content */

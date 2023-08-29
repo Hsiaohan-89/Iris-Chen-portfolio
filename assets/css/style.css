@@ -34,7 +34,20 @@ header {
 
 h1 {
     font-family: 'Belanosima', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
+a:hover {
+    color: #ff9100;
+}
+
+header h1 {
+    text-decoration: none;
+}
+
+nav>ul {
+    list-style-type: none;
 }
 
 /* Main content */
@@ -46,6 +59,8 @@ main {
     flex-shrink: 0;
     flex-basis: auto;
 }
+
+
 
 /*Footer*/
 footer {

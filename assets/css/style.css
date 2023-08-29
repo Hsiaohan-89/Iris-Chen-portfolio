@@ -1,3 +1,8 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Caprasimo&family=Fugaz+One&family=Lato:wght@300&family=Monoton&family=Nanum+Pen+Script&family=Oswald:wght@200;300;400;500;600;700&family=Reenie+Beanie&display=swap');
+
+
+
 /* Asterisk wildcard selector to override default styles added by the browser*/
 
 * {
@@ -14,6 +19,7 @@ body {
     flex-direction: column;
     /* general porject style */
     color: #3a3a3a;
+    font-family: 'Belanosima', sans-serif;
 }
 
 /* Header */

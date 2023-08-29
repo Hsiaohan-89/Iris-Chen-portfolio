@@ -19,12 +19,17 @@ body {
     flex-direction: column;
     /* general porject style */
     color: #3a3a3a;
-    font-family: 'Belanosima', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 /* Header */
 header {
     background-color: lightcoral;
+}
+
+h1 {
+    font-family: 'Belanosima', sans-serif;
+
 }
 
 /* Main content */

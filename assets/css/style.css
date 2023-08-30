@@ -108,11 +108,14 @@ main {
 
 
 /*Footer*/
-footer {
+
+#social-networks {
+    text-align: center;
     display: flex;
-    background-color: transparent;
-    margin: 30px;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    list-style-type: none;
+
 }
 
 a i {
@@ -121,6 +124,11 @@ a i {
 
 /* Media query: tablets and larger (768px and up ) */
 @media screen and (min-width: 768px) {
+    header {
+        margin: 1rem 0;
+    }
+
+
     nav {
         display: block;
         position: relative;
@@ -144,7 +152,7 @@ a i {
 
     #logo {
         margin: 0 0.5rem;
-        font-size: 210%;
+        font-size: 150%;
     }
 
     /* Main content */
@@ -167,7 +175,7 @@ a i {
     }
 
     a i {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     #menu>li {

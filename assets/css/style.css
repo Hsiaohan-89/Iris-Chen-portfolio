@@ -54,7 +54,7 @@ header a {
     text-decoration: none;
 }
 
-li a:hover {
+#menu a:hover {
     color: #ff9100;
     text-decoration: underline;
 }
@@ -153,5 +153,25 @@ a i {
         margin-top: 80px;
     }
 }
+
+@media screen and (min-width:992px) {
+    #menu a:hover {
+        color: #ff9100;
+        text-decoration: underline;
+    }
+
+    header {
+        margin: 1rem 0;
+        font-size: 25px;
+
+    }
+
+    a i {
+        font-size: 25px;
+    }
+
+    #menu>li {
+        font-size: 2rem;
+    }
 
 }

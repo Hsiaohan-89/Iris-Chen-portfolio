@@ -114,15 +114,27 @@ main {
     position: relative;
 }
 
+/* index page */
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(12, 189, 159, 0.2);
     font-size: 80%;
     position: absolute;
     bottom: 0;
+    width: 90%;
 }
 
+/* aboutme page */
 
+/*experience page */
+
+.exp li {
+    list-style-type: circle;
+}
+
+/* protfolio page */
+
+/* get in touch page */
 
 
 
@@ -199,6 +211,10 @@ a i {
 
     #menu>li {
         font-size: 2rem;
+    }
+
+    main {
+        margin-top: 122.8px;
     }
 
 }

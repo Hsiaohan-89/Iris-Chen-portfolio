@@ -134,7 +134,7 @@ main {
 
 #exp-sec {
     border: 2px black;
-    margin: 1em;
+    margin: 3em;
 }
 
 /* protfolio page */
@@ -161,7 +161,7 @@ a i {
 /* Media query: tablets and larger (768px and up ) */
 @media screen and (min-width: 768px) {
     header {
-        margin: 1rem 0;
+        padding: 25px 0;
     }
 
 
@@ -205,7 +205,7 @@ a i {
     }
 
     header {
-        margin: 30px 0 16px 0;
+        padding-top: 30px;
         font-size: 25px;
 
     }

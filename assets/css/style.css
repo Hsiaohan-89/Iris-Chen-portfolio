@@ -100,6 +100,10 @@ nav {
 
 }
 
+.nav-toggle-label i:hover {
+    color: #ff9100;
+}
+
 /* Main content */
 main {
 
@@ -128,8 +132,9 @@ main {
 
 /*experience page */
 
-.exp li {
-    list-style-type: circle;
+#exp-sec {
+    border: 2px black;
+    margin: 1em;
 }
 
 /* protfolio page */

@@ -60,14 +60,49 @@
 
     <!-- Main content -->
     <main>
-      <section>
+      <section id="msg">
         <form
           action="https://formdump.codeinstitute.net/"
           method="post"
-          id="msg"
+          id="msg-form"
         >
-          <h2>Get In Touch!<i class="fa-solid fa-envelope"></i></h2>
-          
+          <h3>Get In Touch!<i class="fa-solid fa-envelope"></i></h3>
+          <label for="first-name">First Name : </label>
+          <input
+            type="text"
+            id="first-name"
+            name="first-name"
+            class="text-input"
+            required
+          /><br />
+          <label for="last-name">Last Name : </label>
+          <input
+            type="text"
+            id="last-name"
+            name="last-name"
+            class="text-input"
+            required
+          /><br />
+          <label for="email">Email Address : </label>
+          <input
+            type="email"
+            id="email-address"
+            name="email-address"
+            class="text-input"
+            required
+          /><br />
+          <div>
+            <label for="msg-me"></label>
+            <textarea
+              name="msg-me"
+              id="msg-me"
+              class="msg-me"
+              cols="30"
+              rows="10"
+              placeholder="sent me a message that you want to tell me."
+            ></textarea>
+            <button type="submit" class="msg-button">Tell me</button>
+          </div>
         </form>
       </section>
     </main>

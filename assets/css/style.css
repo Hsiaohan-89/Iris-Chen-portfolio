@@ -143,8 +143,29 @@ main {
 
 #exp-sec {
     border: 2px black;
-    margin: 2em;
+    margin: 1em;
 }
+
+#expbk {
+    /* background-color: lightblue; */
+    background-image: url("../images/expbk04.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+#exp-sec h4 {
+    padding: 15px 0;
+
+}
+
+#exp-div li {
+    padding-bottom: 3px;
+}
+
+
 
 /* protfolio page */
 
@@ -152,7 +173,7 @@ main {
 
 #msg {
     width: 100%;
-    height: 500px;
+    height: 100%;
     background: url("../images/cover-msg01.webp") no-repeat center center/cover;
 }
 
@@ -195,14 +216,15 @@ main {
 
 }
 
-a i {
+#social-networks i {
     font-size: 30px;
+    padding: 5%;
 }
 
 /* Media query: tablets and larger (768px and up ) */
 @media screen and (min-width: 768px) {
     header {
-        padding: 25px 0;
+        padding: 25px 0 0 0;
     }
 
 
@@ -252,6 +274,7 @@ a i {
         max-width: 400px;
         left: 10%;
     }
+
 }
 
 @media screen and (min-width:992px) {

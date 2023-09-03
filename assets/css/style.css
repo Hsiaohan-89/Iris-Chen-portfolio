@@ -140,7 +140,7 @@ main {
     background-size: 100% 100%;
 
 
-}   
+}
 
 #cover-text h3 {
     padding-left: 1em;
@@ -149,11 +149,23 @@ main {
 
 /* aboutme page */
 
+#about-me {
+    background-image: url("../images/expbk03.webp");
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: 100% 100%;
+}
+
+#about-me p {
+    padding: 1.5em;
+}
+
 /*experience page */
 
 #exp-sec {
     border: 2px black;
     margin: 1em;
+    background-image: url();
 }
 
 #expbk {

@@ -132,7 +132,7 @@ main {
 
 #cover-back {
     width: 100%;
-    height: 500px;
+    height: 525.6px;
     /* background-image: url("https: //unsplash.com/photos/-5fbmfaInwg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"); */
     background-image: url("../images/expbk03.webp");
     background-repeat: no-repeat;
@@ -163,19 +163,14 @@ main {
 /*experience page */
 
 #exp-sec {
-    border: 2px black;
-    margin: 1em;
-    background-image: url();
+    padding: 1em 2em;
 }
 
 #expbk {
-    /* background-color: lightblue; */
-    background-image: url("../images/expbk04.webp");
+    background-image: url("../images/expbk03.webp");
+    background-position: auto;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    width: 100%;
+    background-size: 100% 100%;
 }
 
 #exp-sec h4 {
@@ -185,11 +180,26 @@ main {
 
 #exp-div li {
     padding-bottom: 3px;
+    padding-left: 3px;
 }
 
 
 
+
 /* protfolio page */
+
+#por-sec {
+    width: 100%;
+    height: 525.6px;
+    background-image: url("../images/expbk03.webp");
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: 100% 100%;
+}
+
+#por-div {
+    padding: 1em;
+}
 
 /* get in touch page */
 
@@ -296,6 +306,7 @@ main {
         max-width: 400px;
         left: 10%;
     }
+
 
 }
 

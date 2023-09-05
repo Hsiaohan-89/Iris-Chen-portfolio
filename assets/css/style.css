@@ -128,23 +128,36 @@ main {
     position: absolute;
     bottom: 0;
     width: 90%;
+
 }
 
 #cover-back {
     width: 100%;
     height: 525.6px;
-    /* background-image: url("https: //unsplash.com/photos/-5fbmfaInwg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"); */
-    background-image: url("../images/expbk03.webp");
+    background-color: #3a3a3a;
     background-repeat: no-repeat;
-    background-position: auto;
-    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
 
 
 }
 
+
 #cover-text h3 {
     padding-left: 1em;
     font-size: 99%;
+    color: #ffffff;
+    display: flex;
+    align-self: flex-end;
+}
+
+#cover-photo {
+    background-image: url("../images/Profile.JPG");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 60px auto;
 }
 
 /* aboutme page */
@@ -290,6 +303,14 @@ main {
     main {
         /* push content down to accomodate larger header */
         margin-top: 80px;
+    }
+
+    /* Index page */
+
+    #cover-text h3 {
+        display: flex;
+        align-content: center;
+        /* justify-content: center; */
     }
 
 

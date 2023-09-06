@@ -22,13 +22,10 @@ body {
     font-family: 'Nanum Pen Script', cursive;
 }
 
-h1 {
-    font-family: 'Belanosima', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-h3 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Belanosima', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -146,8 +143,6 @@ main {
     padding-left: 1em;
     font-size: 99%;
     color: #3a3a3a;
-    /* display: flex;
-    align-self: flex-end; */
 }
 
 #cover-photo {
@@ -176,9 +171,22 @@ main {
     background-size: 100% 100%;
 }
 
-#about-me p {
-    padding: 1.5em;
+#aboutme-child {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
 }
+
+#aboutme-photo {
+    background: url("../images/aboutme.jpg") no-repeat center center/cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    align-self: flex-end;
+}
+
+
+
 
 /*experience page */
 

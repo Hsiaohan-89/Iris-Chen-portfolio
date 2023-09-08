@@ -380,6 +380,7 @@ main {
 
 /* Media query: laptops and larger (992px and up ) */
 @media screen and (min-width: 992px) {
+
     /* index page */
     #cover-text {
         left: 50%;
@@ -390,7 +391,11 @@ main {
     }
 
     /* about me page */
-    
+    #aboutme-child {
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 
 
 }
@@ -398,5 +403,21 @@ main {
 
 /* Media query: laptops and larger (1200px and up ) */
 @media screen and (min-width:1200px) {
-    
+
+    /* index page */
+    main {
+        margin-top: 100px;
+    }
+
+    #menu a {
+        padding-left: 45px;
+    }
+
+
+
+    /* about me page */
+    #about-me {
+        height: 479px;
+    }
+
 }

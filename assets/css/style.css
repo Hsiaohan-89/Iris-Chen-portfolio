@@ -481,7 +481,9 @@ iframe {
 
     #cover-photo {
         position: relative;
-        left: 850px;
+        left: 700px;
+        width: 350px;
+        height: 350px;
     }
 
 
@@ -491,10 +493,20 @@ iframe {
         height: 479px;
     }
 
+    #aboutme-photo {
+        width: 400px;
+        height: 400px;
+    }
+
     /* experience page */
 
     #edu-div {
         padding-left: 20px;
+    }
+
+    #exp-pic {
+        width: 500px;
+        height: 300px;
     }
 
     /* portfolio */

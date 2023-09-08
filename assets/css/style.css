@@ -181,9 +181,11 @@ main {
 /*experience page */
 
 #exp-sec {
+    width: 100%;
     padding: 2em;
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -202,16 +204,6 @@ main {
     padding-top: 30px;
 }
 
-#exp-pic {
-    /* background-color: #ff9100; */
-    height: 100px;
-    width: 200px;
-    background-image: url(../images/Activision_logo-copy.webp);
-    background-size: 80%;
-    background-repeat: no-repeat;
-    align-self: flex-end;
-
-}
 
 
 
@@ -334,10 +326,12 @@ iframe {
 
 
     /* experience pagd */
+    #exp-sec {
+        padding: 2em;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
 
-    #exp-pic {
-        width: 300px;
-        height: 150px;
     }
 
 
@@ -425,26 +419,15 @@ iframe {
     /* experience page */
 
     #exp-sec {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: baseline;
-    }
-
-    #edi-div {
-        order: 1;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+        padding: 60px;
 
     }
 
-    #exp-div {
-        order: 2;
 
-    }
-
-    #exp-pic {
-        order: 1;
-        transform: translate(-300px, 0);
-    }
 
     /* get in touch page */
     main {
@@ -500,14 +483,16 @@ iframe {
 
     /* experience page */
 
-    #edu-div {
-        padding-left: 20px;
+    #exp-sec {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+        padding: 60px;
+
     }
 
-    #exp-pic {
-        width: 500px;
-        height: 300px;
-    }
+
 
     /* portfolio */
 

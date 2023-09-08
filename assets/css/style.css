@@ -25,7 +25,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     font-family: 'Belanosima', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -180,20 +181,37 @@ main {
 /*experience page */
 
 #exp-sec {
-    padding: 1em 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
 }
 
 
-#exp-sec h4 {
+#exp-sec h5 {
     padding: 15px 0;
 
 }
 
-#exp-div li {
-    padding-bottom: 3px;
-    padding-left: 3px;
+#exp-div li,
+#edu-div li {
+    list-style-type: none;
+
 }
 
+#exp-div h4 {
+    padding-top: 30px;
+}
+
+#exp-pic {
+    /* background-color: #ff9100; */
+    height: 100px;
+    width: 200px;
+    background-image: url(../images/Activision_logo-copy.webp);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    align-self: flex-end;
+
+}
 
 
 
@@ -301,6 +319,16 @@ main {
     }
 
 
+    /* experience pagd */
+
+    #exp-pic {
+        width: 300px;
+        height: 150px;
+    }
+
+
+
+
 
     /* get in touch page */
 
@@ -318,7 +346,12 @@ main {
 
 }
 
+
+/* Media query: laptops and larger (992px and up ) */
 @media screen and (min-width:992px) {
+
+    /* general */
+
     #menu a:hover {
         color: #ff9100;
         text-decoration: underline;
@@ -342,18 +375,6 @@ main {
         margin-top: 122.8px;
     }
 
-}
-
-
-/* Media query: laptops and larger (992px and up ) */
-@media screen and (min-width: 992px) {
-
-    /* general */
-
-    #menu a {
-        padding-left: 40px;
-    }
-
     /* index page */
     #cover-text {
         left: 50%;
@@ -370,8 +391,31 @@ main {
         padding-right: 30px;
     }
 
+    /* experience page */
 
+    #exp-sec {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    #edi-div {
+        order: 1;
+        
+    }
+
+    #exp-div {
+        order: 2;
+        
+    }
+
+    #exp-pic {
+        order: 1;
+        transform: translate(-300px,0 );
 }
+
+
 
 
 /* Media query: laptops and larger (1200px and up ) */

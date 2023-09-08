@@ -135,6 +135,9 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: auto auto;
+    /* make other device footer less space */
+    padding-bottom: 30px;
+
 
 }
 
@@ -324,7 +327,7 @@ main {
 
     #cover-text {
         left: 50%;
-        top: 50%;
+        top: 65%;
         transform: translate(-50%, 0);
         height: fit-content;
 
@@ -372,4 +375,28 @@ main {
         margin-top: 122.8px;
     }
 
+}
+
+
+/* Media query: laptops and larger (992px and up ) */
+@media screen and (min-width: 992px) {
+    /* index page */
+    #cover-text {
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%, 0);
+        height: fit-content;
+
+    }
+
+    /* about me page */
+    
+
+
+}
+
+
+/* Media query: laptops and larger (1200px and up ) */
+@media screen and (min-width:1200px) {
+    
 }

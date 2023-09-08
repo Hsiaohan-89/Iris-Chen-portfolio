@@ -61,50 +61,63 @@
     <!-- Main content -->
     <main>
       <section id="msg">
-        <form
-          action="https://formdump.codeinstitute.net/"
-          method="post"
-          id="msg-form"
-        >
-          <h3>Get In Touch!<i class="fa-solid fa-envelope"></i></h3>
-          <label for="first-name">First Name : </label>
-          <input
-            type="text"
-            id="first-name"
-            name="first-name"
-            class="text-input"
-            required
-          /><br />
-          <label for="last-name">Last Name : </label>
-          <input
-            type="text"
-            id="last-name"
-            name="last-name"
-            class="text-input"
-            required
-          /><br />
-          <label for="email">Email Address : </label>
-          <input
-            type="email"
-            id="email-address"
-            name="email-address"
-            class="text-input"
-            required
-          /><br />
-          <div>
-            <label for="msg-me"></label>
-            <textarea
-              name="msg-me"
-              id="msg-me"
-              class="msg-me"
-              cols="30"
-              rows="10"
-              placeholder="sent me a message that you want to tell me."
-            ></textarea>
-            <button type="submit" class="msg-button">Tell me</button>
-            <section id="msgme-photo"></section>
-          </div>
-        </form>
+        <div dir="msg-div">
+          <form
+            action="https://formdump.codeinstitute.net/"
+            method="post"
+            id="msg-form"
+          >
+            <h3>Get In Touch!<i class="fa-solid fa-envelope"></i></h3>
+            <label for="first-name">First Name : </label>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              class="text-input"
+              required
+            /><br />
+            <label for="last-name">Last Name : </label>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              class="text-input"
+              required
+            /><br />
+            <label for="email">Email Address : </label>
+            <input
+              type="email"
+              id="email-address"
+              name="email-address"
+              class="text-input"
+              required
+            /><br />
+            <div>
+              <label for="msg-me"></label>
+              <textarea
+                name="msg-me"
+                id="msg-me"
+                class="msg-me"
+                cols="30"
+                rows="10"
+                placeholder="sent me a message that you want to tell me."
+              ></textarea>
+              <button type="submit" class="msg-button">Tell me</button>
+              <section id="msgme-photo"></section>
+            </div>
+          </form>
+        </div>
+        <div id="frame">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.7176191888857!2d-6.305669287014215!3d53.34831087217438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670c4965ab3aab%3A0x944c96b625807fa7!2sConyngham%20Rd%2C%20Dublin!5e0!3m2!1sen!2sie!4v1694187281234!5m2!1sen!2sie"
+            width="200"
+            height="150"
+            style="border: 1"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </section>
     </main>
 

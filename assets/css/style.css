@@ -64,6 +64,16 @@ header a {
     text-decoration: underline;
 }
 
+.active {
+    color: #ff9100;
+    text-decoration: underline;
+}
+
+#nav-toggle:checked~nav {
+    text-decoration: underline;
+    color: #ff9100;
+}
+
 #menu {
     font-size: 110%;
     /* letter-spacing: 4px; */
@@ -100,6 +110,14 @@ nav {
 }
 
 .nav-toggle-label i:hover {
+    color: #ff9100;
+}
+
+
+
+/* Footer general */
+
+#social-networks a:hover {
     color: #ff9100;
 }
 
@@ -407,10 +425,10 @@ iframe {
 
     /* general */
 
-    #menu a:hover {
+    /* #menu a:hover {
         color: #ff9100;
         text-decoration: underline;
-    }
+    } */
 
     header {
         padding-top: 30px;

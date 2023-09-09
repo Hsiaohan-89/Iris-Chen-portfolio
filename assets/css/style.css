@@ -32,6 +32,10 @@ h5 {
     letter-spacing: 1px;
 }
 
+p {
+    padding-bottom: 10px;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -190,10 +194,18 @@ main {
 
 /* aboutme page */
 
+#aboutme-main {
+    padding-left: 45px;
+    padding-top: 45px;
+}
+
 #aboutme-child {
     margin: 30px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    padding-left: 40px;
 }
 
 #aboutme-photo {
@@ -202,6 +214,10 @@ main {
     height: 200px;
     border-radius: 50px;
     align-self: flex-end;
+}
+
+#aboutme-child h4 {
+    padding-bottom: 10px;
 }
 
 
@@ -540,7 +556,8 @@ iframe {
     /* about me page */
     #about-me {
         width: 100%;
-        height: 479px;
+        height: 100%;
+        /* height: 479px; */
     }
 
     #aboutme-photo {

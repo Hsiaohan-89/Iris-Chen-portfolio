@@ -104,4 +104,34 @@ Belanosima was chosen for the title on the header, and using for the heading, Na
 #### Imagery
 The selected image it's for user to get to know the web developer more.
 
+#### Icons
+The icons resources is from [Font Awesome](https://fontawesome.com/). As with different page has differnet function give relate icon.
+
 [Back to top ⇧](#iris-chen-portfolio)
+
+## Features
+### Design Features
+
+Each page has consistent and responsive navigation bar. please see below details :
+
+- The **Header** is across the top of the page. 
+- The **Navigation bar** is positioned on the right top of the page. The bavigation bar is used for screen 768px and 992px and 1200px. The screen smaller then 768px will be replaced by dropdown icon.
+- The **Navigation bar** collapses into a **dropdown icon**, when clicked or tapped, opens a menu shows the different category.
+- The **Footer** stays at the bottom of the screen at all times, on all screen sizes. Each social link opens in a new tab.
+
+<dl>
+    <dt><a href="index.html" target="_blank" alt="Iris Chen portfolio page">Home Page</a></dt>
+    <dd>
+ The <em>Home Page</em> main content contain a photo and a paragraph, according to different screen sizes the content will fit within the screens.
+  <ul>
+  <li>
+  <em>Image</em>-This image is to show users that welcome to my portfolio page.
+  </li>
+  <li><em>Paragraph</em>- This Paragraph it's to show users why I wnat to create this place and what's my purpose.</li>
+</dl>
+<dl>
+<dt><a href="aboutme.html" target="_blank" alt="About me page">Home Page</a></dt>
+<dd>
+
+</dl>
+ 

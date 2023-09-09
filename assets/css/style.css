@@ -300,6 +300,7 @@ main {
     background-color: #551a8b;
 }
 
+
 .msg-button:hover {
     color: #ff9100;
     cursor: pointer;
@@ -435,10 +436,10 @@ iframe {
         left: 10%;
     }
 
-    .text-input:hover {
+    /* .text-input:hover {
         color: #ff9100;
 
-    }
+    } */
 
     #frame {
         display: flex;

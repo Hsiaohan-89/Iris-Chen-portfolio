@@ -32,6 +32,14 @@ h5 {
     letter-spacing: 1px;
 }
 
+h4 {
+    color: #121323;
+}
+
+h5 {
+    color: #373735;
+}
+
 p {
     padding-bottom: 10px;
 }
@@ -186,7 +194,7 @@ main {
 
 #cover-text {
     left: 50%;
-    top: 40%;
+    top: 45%;
     transform: translate(-50%, 0);
     height: fit-content;
 
@@ -260,7 +268,22 @@ main {
 }
 
 #por-main {
-    padding: 40px;
+    padding: 10px 25px;
+}
+
+#por-sec {
+    width: 100%;
+}
+
+#project_item1 {
+    background-image: url("../images/Mockup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+
 }
 
 /* get in touch page */
@@ -414,6 +437,13 @@ iframe {
 
     }
 
+    /* portfolio page */
+
+    #project_item1 {
+        width: 100%;
+        height: 450px;
+    }
+
 
 
 
@@ -461,10 +491,6 @@ iframe {
 
     /* general */
 
-    /* #menu a:hover {
-        color: #ff9100;
-        text-decoration: underline;
-    } */
 
     header {
         padding-top: 30px;
@@ -487,16 +513,11 @@ iframe {
     /* index page */
     #cover-text {
         left: 50%;
-        top: 70%;
+        top: 65%;
         transform: translate(-50%, 0);
         height: fit-content;
 
     }
-
-    /* #cover-photo {
-        position: relative;
-        left: 400px;
-    } */
 
     /* about me page */
     #aboutme-child {
@@ -560,6 +581,11 @@ iframe {
         font-size: 70%;
     }
 
+    #cover-photo {
+        width: 350px;
+        height: 350px;
+    }
+
 
 
     /* about me page */
@@ -586,12 +612,36 @@ iframe {
 
     }
 
+    #edu-div {
+        padding: 10px;
+    }
+
+    #exp-div {
+        padding: 10px 20px 10px 10px;
+    }
 
 
     /* portfolio */
 
+    
+
     #por-div {
         padding: 70px;
+        display: grid;
+
+
+
+    }
+
+    #project_item1 {
+        width: 50%;
+        height: 500px;
+
+    }
+
+    #project_intro1 {
+        
+
     }
 
     /* get in touch page */

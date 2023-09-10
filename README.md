@@ -32,6 +32,9 @@
   - [Technologies Used](#technologies-used)
     - [Main Languages Used](#main-languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+    - [Deploying on GitHub Pages](#deploying-on-github-pages)
   - [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
@@ -42,7 +45,7 @@
 
 ## Iris Chen
 
-This it's a Hello page with simple introduction of my self and why I'm making this website for myself as starting my journey to become a full-stack sofeware developer, as I will put all my future work here and my experiences we well as people will able to have all the links in my portfolio page and will able to contact me in my get in touch page.
+This it's a Hello page with a simple introduction of myself and why I'm making this website for myself as I start my journey to become a full-stack software developer, I will put all my future work here and my experiences we well as people will able to have all the links in my portfolio page and will able to contact me in my get in touch page.
 
 [Back to top ⇧](#iris-chen-portfolio)
 
@@ -52,24 +55,24 @@ This it's a Hello page with simple introduction of my self and why I'm making th
 
 The ideal user for this website is :
 
-- Anyone who has interest in web developement
+- Anyone who has an interest in web development
 
 ### User-Stories
 
 ### Goals
 
-1. I will regular update the portfolio page for my all the works in the future.
-2. I will have update of my webpage that sasily assess all the information.
-3. I will update the navitation of each my pages.
-4. I will update the get in touch page with more information.
+1. I will regularly update the portfolio page for my all work in the future.
+2. I will have an update of my webpage that easily assesses all the information.
+3. I will update the navigation of each of my pages.
+4. I will update the Get in Touch page with more information.
 
 ### Development-Planes
 
-To keep update and imporve the design for all the user and give more responvive experience.
+To keep updated and improve the design for all the users and give a more responsive experience.
 
 #### Strategy
 
-This website mainly for experience exchange or advice to imporve my portfolio or expand my connections. The website will focus on the following target audience bewlo:
+This website is mainly for experience exchange or advice to improve my portfolio or expand my connections. The website will focus on the following target audience below:
 
 - **Roles:**
 
@@ -83,7 +86,7 @@ This website mainly for experience exchange or advice to imporve my portfolio or
 
 #### Scope
 
-The scope is for advice and experience exchange and build more connection help each grow together with their coding journey.
+The scope is for advice and experience exchange and building more connections help each grow together with their coding journey.
 
 - Content Requirement :
   - The user will be looking for :
@@ -120,7 +123,7 @@ Belanosima was chosen for the title on the header, and using for the heading, Na
 
 #### Imagery
 
-The selected image it's for user to get to know the web developer more.
+The selected image it's for user to get to know the web developer.
 
 #### Icons
 
@@ -132,22 +135,22 @@ The icons resources is from [Font Awesome](https://fontawesome.com/). As with di
 
 ### Design Features
 
-Each page has consistent and responsive navigation bar. please see below details :
+Each page has a consistent and responsive navigation bar. please see the below details :
 
 - The **Header** is across the top of the page.
-- The **Navigation bar** is positioned on the right top of the page. The bavigation bar is used for screen 768px and 992px and 1200px. The screen smaller then 768px will be replaced by dropdown icon.
+- The **Navigation bar** is positioned on the right top of the page. The navigation bar is used for screens 768px 992px and 1200px. The screen smaller than 768px will be replaced by a dropdown icon.
 - The **Navigation bar** collapses into a **dropdown icon**, when clicked or tapped, opens a menu shows the different category.
 - The **Footer** stays at the bottom of the screen at all times, on all screen sizes. Each social link opens in a new tab.
 
 <dl>
     <dt><a href="index.html" target="_blank" alt="Iris Chen portfolio page">Home Page</a></dt>
     <dd>
- The <em>Home Page</em> main content contain a photo and a paragraph, according to different screen sizes the content will fit within the screens.
+ The <em>Home Page</em> main content contains a photo and a paragraph, according to different screen sizes the content will fit within the screens.
   <ul>
   <li>
   <em>Image</em>-This image is to show users that welcome to my portfolio page.
   </li>
-  <li><em>Paragraph</em>- This Paragraph it's to show users why I wnat to create this place and what's my purpose.</li>
+  <li><em>Paragraph</em>- This Paragraph it's to show users why I want to create this place and what's my purpose.</li>
   </dd>
 </dl>
 
@@ -158,7 +161,7 @@ The <em>About me</em> It's more deatil about me and with few life image.
 <ul>
     <li><em>Paragraph</em>- It's a short introduction about myself, and my professional background.</li>
     <li>
-    <em>Image</em>- The image it's a professional photo.
+    <em>Image</em>- The image of the developer.
     </li>
     </dd>
 </dl>
@@ -168,9 +171,9 @@ The <em>About me</em> It's more deatil about me and with few life image.
 <dd>
 The <em>My experience</em> contain my education histroy and my working experience.
 <ul>
-    <li><em>Paragraph</em>- It's telling user my profecsional and  my job history.
+    <li><em>Paragraph</em>- It tells the user my professional and my job history.
     </li>
-    <li><em>Icon</em> - With different section of ecucation has followed related icon.
+    <li><em>Icon</em> - The different section has related icon.
     </li>
 </dd>
 </dl>
@@ -178,9 +181,9 @@ The <em>My experience</em> contain my education histroy and my working experienc
 <dl>
 <dt><a href="protfolio" target="_blank" alt="My Portfolio page">My Portfolio</a></dt>
 <dd>
-The <em>My portfolio</em> contain of my work, as I'm starting my journey with full-stack software development, I will continuosily post my work here to share my experience.
+The <em>My portfolio</em> contain of my work, as I'm starting my journey with full-stack software development, I will continuously post my work here to share my experience.
 <ul>
-    <li><em>Paragraph</em>- Explian my project and why I create this project.
+    <li><em>Paragraph</em>- Explain my project and why I created this project.
     </li>
     <li><em>Image</em> - A mockup image to give uset quick view of my project and with different size screen.
     </li>
@@ -190,11 +193,11 @@ The <em>My portfolio</em> contain of my work, as I'm starting my journey with fu
 <dl>
 <dt><a href="getintouch.html" target="_blank" alt="get in touch page">Get in touch</a></dt>
 <dd>
-The <em>Get in touch</em> contain of a form and a textarea also embed a map. Users who are interest and would like to get in touch exchange experience and connect.
+The <em>Get in touch</em> contain of a form and a textarea also embed a map. Users who are interested and would like to get in touch exchange experience and connect.
 <ul>
-    <li><em>Form</em>- The user are required to tell their name and email, also they can tell me what's their thinking about my webpage, exchange information and experience.
+    <li><em>Form</em>- The user are required to provide their name and email, also they can tell me what's their think about my webpage, and exchange information and experience.
     </li>
-    <li><em>Image</em> - Embed a map to show user where roughly my location.
+    <li><em>Image</em> - Embed a map to show the user where roughly my location.
     </li>
 </dd>
 </dl>
@@ -259,19 +262,36 @@ The <em>Get in touch</em> contain of a form and a textarea also embed a map. Use
 
 [Back to top ⇧](#iris-chen-portfolio)
 
-## Credits
+## Testing
 
+## Deployment
+
+### Deploying on GitHub Pages
+
+## Credits
 ### Content
 
+- Some of the frame design ideas were borrowed and adapted from various sites below:
+  - [Love Running website](https://github.com/Code-Institute-Solutions/readme-template)
+  - [medium](https://medium.com/@skhans/the-25-best-personal-portfolio-website-design-inspiration-examples-e2eb1c8734df)
+
 ### Media
+- Each pages backgronnd is source from [rawpixe](https://www.rawpixel.com/).
+- The image in profile page and about me page is from the developer.
 
 ### Code
+The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
 
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
 
 [Back to top ⇧](#iris-chen-portfolio)
 
 ## Acknowledgements
 
+- I would like to thank my friend who gave me some of the advice for my own portfolio.
+- I would like to thank my mentor koko and my tutor from the code institute for helping me when I had issues with my design and my code.
+- I also like to thank my friends at Code Institute for their support when I met some issues they were very helpful.
 
 [Back to top ⇧](#iris-chen-portfolio)
 

@@ -218,27 +218,53 @@ The <em>Get in touch</em> contain of a form and a textarea also embed a map. Use
 
 - **Header** - Appearing on almost every page for brand recognition.
 - **Navigation Bar** - Appearing on almost every page for a consistently easy and intuitive navigable system on larger screens.
-**Dropdown Icon** - Appearing on almost every page for a consistently easy and intuitive navigable system on smaller screens.
-**Social Media Icons** - Appearing on almost every page, the icons are appropriate representations of the Social Media platforms, GitHub account. The icons appear in the centre of the footer.
-**Google Maps Embed** - iframe embedding of Google maps, showing the location of Dublin Ireland's to the Contact Page. The map is resized depending on the screen size to ensure the readability of the page on mobile devices.
-**Contact Form** - A contact form is used in the Contact Page, to provide a point of contact for the user.
+  **Dropdown Icon** - Appearing on almost every page for a consistently easy and intuitive navigable system on smaller screens.
+  **Social Media Icons** - Appearing on almost every page, the icons are appropriate representations of the Social Media platforms, GitHub account. The icons appear in the centre of the footer.
+  **Google Maps Embed** - iframe embedding of Google maps, showing the location of Dublin Ireland's to the Contact Page. The map is resized depending on the screen size to ensure the readability of the page on mobile devices.
+  **Contact Form** - A contact form is used in the Contact Page, to provide a point of contact for the user.
 - **404 page** - A 404 page providing a unique user experience in the form of a mini-game/story redirects the user to the home page or, if the user chooses, to additional story pages to continue the experience.
 - **500 page** - A 500 page providing a unique user experience in the form of a mini-game/story redirects the user to the home page or, if the user chooses, to additional story pages to continue the experience.
-
-
+- **[Index Page](index.html "Iris Chen home Page")** - A quick short introduction about me and my photo.
+- **[About Me page](aboutme.html "About Me Page")** - provide my professional background in detailed.
+- **[My Experience Page](experience.html "My Experience Page")** - Providing detail of education and job history.
+- **[Portfolio Page](protfolio.html "My Portfolio Page")** - Providing information of my project and simple introduction and mockup image.
+- **[Get In Touch Page](getintouch.html "Get In Touch Page")** - Providing form to let users get in touch and roughly know where is my location.
 
 ### Features to Implement in the future
-- **Helpful Links Page**
-    - **Feature** - Have more responsive in each pgae.
 
+- **Helpful Links Page**
+  - **Feature** - Have more responsive in each pgae.
 
 [Back to top ⇧](#iris-chen-portfolio)
 
-
 ## Issues and Bugs
 
+The developer ran into several issues during the development of the website, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
+
+**Background Bug** - A bug was detected in development in the background of the main pages. When use enter the first page with mobile screen the content will overlap with the footer.First tring to solve by myself tring with flexbox ans make the div width 100% but it doesn't work.After ask turor sarah's help I understand why it overlapping with the footer and I wasn't able to change the position with position:absolute.
+
+<details>
+<summary>Background Bug</summary>
+
+![Background Bug](assets/READMEfiles/bg-bug.jpg)
+
+</details>
+
+**Background Bug** - A bug was detected early in development in the background of the each page has different background position but using the same background. In every webpage due to using the different position cause the background has different effect in each pages. Afrer ask for turor Oisin's help, it just give me a click that I should put my background in the main instead giving it each pages.
+
+<details>
+<summary>Background Bug</summary>
+
+![Background Bug](assets/READMEfiles/bg-bug02.jpg)
+
+</details>
+
+**Google Maps Embedding Bug** - A bug was detected when embedding the Google map to be used for the Get in touch Page. The developer was having trobule to set the map side by side with flex box. Casue the div element was place worng. After Adjust ansd mentor Koko's help were able to fixed and allow different screen sizes.
+
+**Content flex box bug** - A bug was detected when using the flex box, the content was not able to have space evenly. And the content is not in the center, tried with padding and margin but not suitalbe with different screens. After call with mentor Koko she tuught me how to use CSS Grid and it was easy and able to solve the bug easily.
 
 ## Technologies Used
+
 ### Main Languages Used
 
 - [HTML](https://validator.w3.org/#validate_by_upload "Link to HTML markup validation service")
@@ -266,9 +292,22 @@ The <em>Get in touch</em> contain of a form and a textarea also embed a map. Use
 
 ## Deployment
 
+This project was developed using [codeanywhere](https://codeanywhere.com/ "Link to codeanywhere site"), which was then committed and pushed to GitHub using the GitPod terminal.
+
 ### Deploying on GitHub Pages
 
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/Hsiaohan-89/Iris-Chen-portfolio "Link to GitHub Repo").
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the "Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Main".
+6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+7. Scroll back down to the "Pages" section to retrieve the deployed link.
+
 ## Credits
+
 ### Content
 
 - Some of the frame design ideas were borrowed and adapted from various sites below:
@@ -276,10 +315,12 @@ The <em>Get in touch</em> contain of a form and a textarea also embed a map. Use
   - [medium](https://medium.com/@skhans/the-25-best-personal-portfolio-website-design-inspiration-examples-e2eb1c8734df)
 
 ### Media
+
 - Each pages backgronnd is source from [rawpixe](https://www.rawpixel.com/).
 - The image in profile page and about me page is from the developer.
 
 ### Code
+
 The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
 
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
@@ -295,5 +336,4 @@ The developer consulted multiple sites in order to better understand the code th
 
 [Back to top ⇧](#iris-chen-portfolio)
 
-
-***
+---

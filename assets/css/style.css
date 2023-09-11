@@ -158,17 +158,13 @@ main {
 
 /* index page */
 
+
 #cover-div {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-/* #cover-sec {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-} */
 
 
 #cover-text {
@@ -407,6 +403,10 @@ iframe {
 
     /* Index page */
 
+    #cover-sec {
+        width: 100%;
+    }
+
 
 
     #cover-text {
@@ -582,6 +582,17 @@ iframe {
 @media screen and (min-width:1200px) {
 
     /* index page */
+
+    #cover-sec {
+        width: 100vww;
+    }
+
+    #cover-div {
+        justify-content: center;
+    }
+
+
+
     main {
         margin-top: 100px;
     }

@@ -157,11 +157,18 @@ main {
 }
 
 /* index page */
-#cover-sec {
+
+#cover-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* #cover-sec {
     width: 100%;
     display: flex;
     flex-direction: column;
-}
+} */
 
 
 #cover-text {
@@ -281,7 +288,7 @@ main {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 200px;
+    height: 250px;
     border-radius: 5px;
 
 }
@@ -403,12 +410,15 @@ iframe {
 
     /* Index page */
 
+    }
+
     #cover-text {
         left: 50%;
         top: 65%;
         transform: translate(-50%, 0);
         height: fit-content;
         font-size: 60%;
+
 
     }
 
@@ -419,9 +429,12 @@ iframe {
         background-size: cover;
         border-radius: 20%;
         margin: 60px;
+        /* width: 70%;
+        height: 400px; */
+
     }
 
-    /* experience pagd */
+    /* experience page */
     #exp-sec {
         padding: 2em;
         display: grid;
@@ -466,10 +479,6 @@ iframe {
         left: 10%;
     }
 
-    /* .text-input:hover {
-        color: #ff9100;
-
-    } */
 
     #frame {
         display: flex;
@@ -540,6 +549,14 @@ iframe {
         grid-template-columns: 50% 50%;
         gap: 20px;
         padding: 60px;
+
+    }
+
+    /* portfolio page */
+
+    #por-div {
+        display: grid;
+        grid-template-columns: 50% 50%;
 
     }
 
@@ -623,26 +640,21 @@ iframe {
 
     /* portfolio */
 
-    
+
 
     #por-div {
         padding: 70px;
-        display: grid;
 
 
 
     }
 
     #project_item1 {
-        width: 50%;
+        width: 95%;
         height: 500px;
 
     }
 
-    #project_intro1 {
-        
-
-    }
 
     /* get in touch page */
 

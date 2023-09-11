@@ -173,7 +173,7 @@ main {
     font-size: 50%;
     /* position: absolute; */
     bottom: 0;
-    width: 90%;
+    /* width: 90%; */
 
 }
 
@@ -271,9 +271,6 @@ main {
     padding: 1em;
 }
 
-#por-main {
-    padding: 10px 25px;
-}
 
 #por-sec {
     width: 100%;
@@ -282,11 +279,11 @@ main {
 #project_item1 {
     background-image: url("../images/Mockup.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     width: 100%;
     height: 250px;
-    border-radius: 5px;
+
 
 }
 
@@ -406,6 +403,8 @@ iframe {
 
     #cover-sec {
         width: 100%;
+        display: flex;
+        align-content: center;
     }
 
 
@@ -422,14 +421,14 @@ iframe {
 
     #cover-photo {
         background-image: url("../images/Profile.JPG");
-        width: 200x;
-        height: 200px;
+        /* width: 200x;
+        height: 200px; */
         background-size: cover;
         border-radius: 20%;
         margin: 60px;
         justify-content: center;
-        /* width: 70%;
-        height: 400px; */
+        width: 45%;
+        height: 350px;
 
     }
 
@@ -516,6 +515,14 @@ iframe {
     }
 
     /* index page */
+
+    #cover-div {
+        width: 100%;
+
+
+    }
+
+
     #cover-text {
         left: 50%;
         top: 65%;
@@ -554,7 +561,16 @@ iframe {
     #por-div {
         display: grid;
         grid-template-columns: 50% 50%;
+        margin: 10px;
 
+    }
+
+    #por_div_work {
+        /* padding: 15px; */
+    }
+
+    #project_intro1 {
+        /* padding: 15px; */
     }
 
 
@@ -587,12 +603,17 @@ iframe {
     /* index page */
 
     #cover-sec {
-        width: 100vww;
+        width: 100vw;
     }
 
     #cover-div {
         justify-content: center;
         padding-left: 20px;
+    }
+
+    #cover-photo {
+        width: 50%;
+        height: 450px;
     }
 
 
@@ -609,19 +630,7 @@ iframe {
         font-size: 70%;
     }
 
-    #cover-photo {
-        width: 350px;
-        height: 350px;
-    }
 
-
-
-    /* about me page */
-    #about-me {
-        width: 100%;
-        height: 100%;
-        /* height: 479px; */
-    }
 
     #aboutme-photo {
         max-width: 350px;

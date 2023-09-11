@@ -171,7 +171,7 @@ main {
     /* Final rgba value sets the opacity so it is semi-transparent */
     /* background-color: rgba(12, 189, 159, 0.2); */
     font-size: 50%;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 90%;
 
@@ -198,8 +198,9 @@ main {
 #cover-text {
     left: 50%;
     top: 45%;
-    transform: translate(-50%, 0);
-    height: fit-content;
+    /* transform: translate(-50%, 0);
+    height: fit-content; */
+    padding: 10px 20px;
 
 }
 
@@ -412,8 +413,8 @@ iframe {
     #cover-text {
         left: 50%;
         top: 50%;
-        transform: translate(-50%, 0);
-        height: fit-content;
+        /* transform: translate(-50%, 0);
+        height: fit-content; */
         font-size: 60%;
 
 
@@ -426,6 +427,7 @@ iframe {
         background-size: cover;
         border-radius: 20%;
         margin: 60px;
+        justify-content: center;
         /* width: 70%;
         height: 400px; */
 
@@ -517,8 +519,9 @@ iframe {
     #cover-text {
         left: 50%;
         top: 65%;
-        transform: translate(-50%, 0);
-        height: fit-content;
+        /* transform: translate(-50%, 0);
+        height: fit-content; */
+        padding-left: 20px;
 
     }
 
@@ -589,6 +592,7 @@ iframe {
 
     #cover-div {
         justify-content: center;
+        padding-left: 20px;
     }
 
 

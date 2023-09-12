@@ -321,14 +321,14 @@ main {
     border-radius: 5px;
     padding: 9px 25px;
     margin: 10px;
-    background-color: #551a8b;
+    background-color: #ffffff;
+    color: #121323;
 }
 
-
-.msg-button:hover {
-    color: #ff9100;
-    cursor: pointer;
+textarea {
+    width: 100%;
 }
+
 
 #button {
     position: inherit;
@@ -401,10 +401,15 @@ iframe {
 
     /* Index page */
 
+    #cover-div {
+        width: 100%;
+        justify-content: center;
+    }
+
     #cover-sec {
         width: 100%;
         display: flex;
-        align-content: center;
+        justify-content: center;
     }
 
 
@@ -518,6 +523,7 @@ iframe {
 
     #cover-div {
         width: 100%;
+        justify-content: center;
 
 
     }
@@ -608,7 +614,7 @@ iframe {
 
     #cover-div {
         justify-content: center;
-        padding-left: 20px;
+        padding: 30px;
     }
 
     #cover-photo {

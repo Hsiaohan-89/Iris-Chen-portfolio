@@ -56,16 +56,18 @@ This it's a Hello page with a simple introduction of myself and why I'm making t
 
 The ideal user for this website is :
 
-- Anyone who has an interest in web development
+- Recruiter
+- Employer
+- Head Hunter
 
 ### User-Stories
 
 ### Goals
 
-1. I will regularly update the portfolio page for my all work in the future.
-2. I will have an update of my webpage that easily assesses all the information.
-3. I will update the navigation of each of my pages.
-4. I will update the Get in Touch page with more information.
+- Provide user's iris chen working experience and background
+- Give information about Iris Chen's personality
+- To show the user's iris Chen's location and get in touch with
+- The information about Iris Chen's project work.
 
 ### Development-Planes
 
@@ -82,8 +84,9 @@ This website is mainly for experience exchange or advice to improve my portfolio
   - Experienced full-stack software developer
 
 - **Demographic:**
-  - All ages
-  - people from everywhere
+- Recruiter
+- Employer
+- Head Hunter
 
 #### Scope
 
@@ -285,12 +288,28 @@ The developer ran into several issues during the development of the website, wit
 - **_Expect_** - When clicked the nav bar will show all the pages and the colour will change to yellow.
 - **_Action_** - clicked the nav bar on each page.
 - **_Result_** - Home page open when clicked and colour cahnge to yellow.
+<details>
+
+<summary>Home Nav bar Icon</summary>
+
+![Home Nav bar Icon](assets/READMEfiles/testhomepageicon.jpg)
+
+</details>
+
 
 **_Form submit button_**
 
-- **_Expect_** - Form submit when submit button is clicked.
+- **_Expect_** - Form submit when submit button is clicked if not put the required format will have error prompt.
 - **_Action_** - clicked the submit button.
 - **_Result_** - The form successfully submitted on click.
+
+<details>
+
+<summary>Form submit button</summary>
+
+![Form submit button](assets/READMEfiles/textformpage.jpg)
+
+</details>
 
 **_Social icon link_**
 
@@ -298,11 +317,28 @@ The developer ran into several issues during the development of the website, wit
 - **_Action_** - Clicked on the social icon
 - **_Result_** - open a new page with sign in to your social account.
 
+<details>
+
+<summary>Social icon link</summary>
+
+![Social icon link](assets/READMEfiles/textsocialicon.jpg)
+
+</details>
+
 **_Home page profile photo_**
 
 - **_Expect_** - Photo will change the size in different screen sizes.
 - **_Action_** - change the screen from mobile to tablet 768px to 922px to 1200px
 - **_Result_** - Profile photo cahnge it size when using the different screen siez.
+
+<details>
+
+<summary>Home page profile photo</summary>
+
+![Home page profile photo](assets/READMEfiles/textprofilephoto1.jpg)
+![Home page profile photo](assets/READMEfiles/testprofilepage02.jpg)
+
+</details>
 
 **_Home page content_**
 
@@ -310,11 +346,29 @@ The developer ran into several issues during the development of the website, wit
 - **_Action_** - Change the screen from small to full screen
 - **_Result_** - The content change its position from bottom to the right side
 
+<details>
+
+<summary>Home page content</summary>
+
+![Home page content](assets/READMEfiles/textprofilephoto1.jpg)
+![Home page content](assets/READMEfiles/testprofilepage02.jpg)
+
+</details>
+
 **_My Experience page_**
 
 - **_Expect_** - The content will cahnge to space even when change to tablet and bigger screen sizes.
 - **_Action_** - Change the screen from small to full screen
 - **_Result_** - The content change its position from column to space even when use tablet and bigger screen sizes.
+
+<details>
+
+<summary>My Experience page</summary>
+
+![My Experience page](assets/READMEfiles/textexperience01.jpg)
+![My Experience page](assets/READMEfiles/textexperience02.jpg)
+
+</details>
 
 **_My portfolio page_**
 
@@ -322,11 +376,28 @@ The developer ran into several issues during the development of the website, wit
 - **_Action_** - Change the screen from small to full screen
 - **_Result_** - The content change its position to rows when change the screen sizes.
 
+<details>
+
+<summary>My portfolio page</summary>
+
+![My portfolio page](assets/READMEfiles/textportfolio01.jpg)
+![My portfolio page](assets/READMEfiles/testprofilepage03.jpg)
+
+</details>
+
 **_Get In Touch page_**
 
 - **_Expect_** - The each input in required to fill out.
 - **_Action_** - don't key in any thing and sent.
 - **_Result_** - The system is required you to fill out the form before you submit.
+
+<details>
+
+<summary>Get In Touch page</summary>
+
+![Get In Touch page](assets/READMEfiles/testgetintouchpage.jpg)
+
+</details>
 
 ## Deployment
 

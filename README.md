@@ -2,7 +2,7 @@
 
 ## overview
 
-![Iris portfolio mockup image](assets/READMEfiles/Mockup.jpg)
+![Iris portfolio mockup image](assets/READMEfiles/mockupimage.jpg)
 
 [Link to my Portfolio website.](https://hsiaohan-89.github.io/Iris-Chen-portfolio/)
 
@@ -295,7 +295,6 @@ The developer ran into several issues during the development of the website, wit
 ![Home Nav bar Icon](assets/READMEfiles/testhomepageicon.jpg)
 
 </details>
-
 
 **_Form submit button_**
 

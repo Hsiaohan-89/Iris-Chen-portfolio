@@ -277,8 +277,8 @@ The developer ran into several issues during the development of the website, wit
 - Google fonts was used to import the fonts "Belanosima", "Nanum Pen Script", "Sans-Serif" into the style.css file. These fonts were used throughout the project.
 - [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
   - Font Awesome was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
-- [GitPod](https://gitpod.io/ "Link to GitPod homepage")
-  - GitPod was used for writing code, commiting, and then pushing to GitHub.
+- [Codeanywhere](https://codeanywhere.com/ "Link to codeanywhere homepage")
+  - Codeanywhere was used for writing code, commiting, and then pushing to GitHub.
 - [GitHub](https://github.com/ "Link to GitHub")
   - GitHub was used to store the project after pushing
 - [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
@@ -289,10 +289,57 @@ The developer ran into several issues during the development of the website, wit
 [Back to top ⇧](#iris-chen-portfolio)
 
 ## Testing
+### Manual Testing
+**Home Nav bar icon** 
+
+- ***Expect*** - When clicked the nav bar will show all the pages and the colour will change to yellow.
+- ***Action*** - clicked the nav bar on each page.
+- ***Result*** - Home page open when clicked and colour cahnge to yellow.
+
+***Form submit button***
+- ***Expect*** - Form submit when submit button is clicked.
+- ***Action*** - clicked the submit button.
+- ***Result*** - The form successfully submitted on click.
+
+***Social icon link***
+- ***Expect*** - Social icon when clicked will open another page and to the sign in page.
+- ***Action*** - Clicked on the social icon
+- ***Result*** - open a new page with sign in to your social account.
+
+***Home page profile photo***
+- ***Expect*** - Photo will change the size in different screen sizes.
+- ***Action*** - change the screen from mobile to tablet 768px to 922px to 1200px
+- ***Result*** - Profile photo cahnge it size when using the different screen siez.
+
+***Home page content***
+
+- ***Expect*** - The content will change the position from bottom to the right side when change to big screen
+- ***Action*** - Change the screen from small to full screen
+- ***Result*** - The content change its position from bottom to the right side
+
+***My Experience page***
+
+- ***Expect*** - The content will cahnge to space even when change to tablet and bigger screen sizes.
+- ***Action*** - Change the screen from small to full screen
+- ***Result*** - The content change its position from column to space even when use tablet and bigger screen sizes.
+
+***My portfolio page***
+
+- ***Expect*** - The content will change position from column to rows.
+- ***Action*** - Change the screen from small to full screen
+- ***Result*** - The content change its position to rows when change the screen sizes.
+  
+***Get In Touch page***
+
+- ***Expect*** - The each input in required to fill out.
+- ***Action*** - don't key in any thing and sent.
+- ***Result*** - The system is required you to fill out the form before you submit.
+
+
 
 ## Deployment
 
-This project was developed using [codeanywhere](https://codeanywhere.com/ "Link to codeanywhere site"), which was then committed and pushed to GitHub using the GitPod terminal.
+This project was developed using [codeanywhere](https://codeanywhere.com/ "Link to codeanywhere site"), which was then committed and pushed o GitHub using the GitPhub terminal.
 
 ### Deploying on GitHub Pages
 

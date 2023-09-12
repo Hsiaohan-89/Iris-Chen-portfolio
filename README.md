@@ -33,6 +33,7 @@
     - [Main Languages Used](#main-languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
   - [Testing](#testing)
+    - [Manual Testing](#manual-testing)
   - [Deployment](#deployment)
     - [Deploying on GitHub Pages](#deploying-on-github-pages)
   - [Credits](#credits)
@@ -202,18 +203,6 @@ The <em>Get in touch</em> contain of a form and a textarea also embed a map. Use
 </dd>
 </dl>
 
-<dl>
-    <dt><a href="404.html" target="_blank" alt="Survival Guild - 404 - Page Not Found">404 - Page Not Found</a></dt>
-    <dd>
-        The <em>404 Page</em> is a single page that appears when a user enters the wrong address into the address bar. It is made into a mini-game/story style to entertain the user before returning to the main site. 
-</dl>
-<dl>
-    <dt><a href="500.html" target="_blank" alt="Survival Guild - 500 - Internal Server Error">500 - Internal Server Error</a></dt>
-    <dd>
-        The <em>500 Page</em> is the same as the 404 page except for a different heading letting the user know there was an internal server error.
-    </dd>
-</dl>
-
 ### Existing Features
 
 - **Header** - Appearing on almost every page for brand recognition.
@@ -222,8 +211,7 @@ The <em>Get in touch</em> contain of a form and a textarea also embed a map. Use
   **Social Media Icons** - Appearing on almost every page, the icons are appropriate representations of the Social Media platforms, GitHub account. The icons appear in the centre of the footer.
   **Google Maps Embed** - iframe embedding of Google maps, showing the location of Dublin Ireland's to the Contact Page. The map is resized depending on the screen size to ensure the readability of the page on mobile devices.
   **Contact Form** - A contact form is used in the Contact Page, to provide a point of contact for the user.
-- **404 page** - A 404 page providing a unique user experience in the form of a mini-game/story redirects the user to the home page or, if the user chooses, to additional story pages to continue the experience.
-- **500 page** - A 500 page providing a unique user experience in the form of a mini-game/story redirects the user to the home page or, if the user chooses, to additional story pages to continue the experience.
+
 - **[Index Page](index.html "Iris Chen home Page")** - A quick short introduction about me and my photo.
 - **[About Me page](aboutme.html "About Me Page")** - provide my professional background in detailed.
 - **[My Experience Page](experience.html "My Experience Page")** - Providing detail of education and job history.
@@ -289,53 +277,56 @@ The developer ran into several issues during the development of the website, wit
 [Back to top ⇧](#iris-chen-portfolio)
 
 ## Testing
+
 ### Manual Testing
-**Home Nav bar icon** 
 
-- ***Expect*** - When clicked the nav bar will show all the pages and the colour will change to yellow.
-- ***Action*** - clicked the nav bar on each page.
-- ***Result*** - Home page open when clicked and colour cahnge to yellow.
+**Home Nav bar icon**
 
-***Form submit button***
-- ***Expect*** - Form submit when submit button is clicked.
-- ***Action*** - clicked the submit button.
-- ***Result*** - The form successfully submitted on click.
+- **_Expect_** - When clicked the nav bar will show all the pages and the colour will change to yellow.
+- **_Action_** - clicked the nav bar on each page.
+- **_Result_** - Home page open when clicked and colour cahnge to yellow.
 
-***Social icon link***
-- ***Expect*** - Social icon when clicked will open another page and to the sign in page.
-- ***Action*** - Clicked on the social icon
-- ***Result*** - open a new page with sign in to your social account.
+**_Form submit button_**
 
-***Home page profile photo***
-- ***Expect*** - Photo will change the size in different screen sizes.
-- ***Action*** - change the screen from mobile to tablet 768px to 922px to 1200px
-- ***Result*** - Profile photo cahnge it size when using the different screen siez.
+- **_Expect_** - Form submit when submit button is clicked.
+- **_Action_** - clicked the submit button.
+- **_Result_** - The form successfully submitted on click.
 
-***Home page content***
+**_Social icon link_**
 
-- ***Expect*** - The content will change the position from bottom to the right side when change to big screen
-- ***Action*** - Change the screen from small to full screen
-- ***Result*** - The content change its position from bottom to the right side
+- **_Expect_** - Social icon when clicked will open another page and to the sign in page.
+- **_Action_** - Clicked on the social icon
+- **_Result_** - open a new page with sign in to your social account.
 
-***My Experience page***
+**_Home page profile photo_**
 
-- ***Expect*** - The content will cahnge to space even when change to tablet and bigger screen sizes.
-- ***Action*** - Change the screen from small to full screen
-- ***Result*** - The content change its position from column to space even when use tablet and bigger screen sizes.
+- **_Expect_** - Photo will change the size in different screen sizes.
+- **_Action_** - change the screen from mobile to tablet 768px to 922px to 1200px
+- **_Result_** - Profile photo cahnge it size when using the different screen siez.
 
-***My portfolio page***
+**_Home page content_**
 
-- ***Expect*** - The content will change position from column to rows.
-- ***Action*** - Change the screen from small to full screen
-- ***Result*** - The content change its position to rows when change the screen sizes.
-  
-***Get In Touch page***
+- **_Expect_** - The content will change the position from bottom to the right side when change to big screen
+- **_Action_** - Change the screen from small to full screen
+- **_Result_** - The content change its position from bottom to the right side
 
-- ***Expect*** - The each input in required to fill out.
-- ***Action*** - don't key in any thing and sent.
-- ***Result*** - The system is required you to fill out the form before you submit.
+**_My Experience page_**
 
+- **_Expect_** - The content will cahnge to space even when change to tablet and bigger screen sizes.
+- **_Action_** - Change the screen from small to full screen
+- **_Result_** - The content change its position from column to space even when use tablet and bigger screen sizes.
 
+**_My portfolio page_**
+
+- **_Expect_** - The content will change position from column to rows.
+- **_Action_** - Change the screen from small to full screen
+- **_Result_** - The content change its position to rows when change the screen sizes.
+
+**_Get In Touch page_**
+
+- **_Expect_** - The each input in required to fill out.
+- **_Action_** - don't key in any thing and sent.
+- **_Result_** - The system is required you to fill out the form before you submit.
 
 ## Deployment
 

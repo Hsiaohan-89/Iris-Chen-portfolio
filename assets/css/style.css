@@ -460,6 +460,10 @@ iframe {
         height: 450px;
     }
 
+    #por-div {
+        padding: 60px;
+    }
+
 
 
 
@@ -568,17 +572,10 @@ iframe {
         display: grid;
         grid-template-columns: 50% 50%;
         margin: 10px;
+        padding: 70px;
+        grid-gap: 10px;
 
     }
-
-    #por_div_work {
-        /* padding: 15px; */
-    }
-
-    #project_intro1 {
-        /* padding: 15px; */
-    }
-
 
 
     /* get in touch page */
@@ -670,9 +667,6 @@ iframe {
 
     #por-div {
         padding: 70px;
-
-
-
     }
 
     #project_item1 {

@@ -2,8 +2,7 @@
 
 ## overview
 
-![Iris portfolio mockup image](assets/READMEfiles/mockupimage.jpg)
-
+![Iris portfolio mockup image](assets/READMEfiles/finalmockup.jpg)
 [Link to my Portfolio website.](https://hsiaohan-89.github.io/Iris-Chen-portfolio/)
 
 ## Table of content
@@ -34,6 +33,7 @@
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
   - [Testing](#testing)
     - [Manual Testing](#manual-testing)
+    - [Lighthouse Testing](#lighthouse-testing)
   - [Deployment](#deployment)
     - [Deploying on GitHub Pages](#deploying-on-github-pages)
   - [Credits](#credits)
@@ -406,7 +406,7 @@ The developer ran into several issues during the development of the website, wit
 
 <summary>Home page</summary>
 
-![Home page](assets/READMEfiles/lighthouseahomepage.jpg)
+![Home page](assets/READMEfiles/lighthouseuindexupdate.jpg)
 
 </details>
 
@@ -440,7 +440,6 @@ The developer ran into several issues during the development of the website, wit
 
 </details>
 
-
 **_Get in touch page_**
 
 <details>
@@ -450,7 +449,6 @@ The developer ran into several issues during the development of the website, wit
 ![Get in touch page](assets/READMEfiles/lighthousegetintouch.jpg)
 
 </details>
-
 
 ## Deployment
 

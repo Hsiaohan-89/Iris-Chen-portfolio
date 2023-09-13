@@ -398,6 +398,60 @@ The developer ran into several issues during the development of the website, wit
 
 </details>
 
+### Lighthouse Testing
+
+**_Home page_**
+
+<details>
+
+<summary>Home page</summary>
+
+![Home page](assets/READMEfiles/lighthouseahomepage.jpg)
+
+</details>
+
+**_About me page_**
+
+<details>
+
+<summary>About me page</summary>
+
+![About me page](assets/READMEfiles/lighthouseaboutmepage.jpg)
+
+</details>
+
+**_My experience page_**
+
+<details>
+
+<summary>My experience page</summary>
+
+![My experience page](assets/READMEfiles/lighthousemyexperience.jpg)
+
+</details>
+
+**_My portfilio page_**
+
+<details>
+
+<summary>My portfilio page</summary>
+
+![My portfolio page](assets/READMEfiles/lighthousemyportfolio.jpg)
+
+</details>
+
+
+**_Get in touch page_**
+
+<details>
+
+<summary>Get in touch page</summary>
+
+![Get in touch page](assets/READMEfiles/lighthousegetintouch.jpg)
+
+</details>
+
+
 ## Deployment
 
 This project was developed using [codeanywhere](https://codeanywhere.com/ "Link to codeanywhere site"), which was then committed and pushed o GitHub using the GitPhub terminal.
